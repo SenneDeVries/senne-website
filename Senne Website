@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Senne de Vries</title>
+  <style>
+    body { font-family: 'Georgia', serif; background-color: #ffffff; margin: 0; padding: 0; color: #2c2c2c; }
+    header { background-color: #1a1a1a; color: #fff; padding: 2rem 1rem; text-align: center; }
+    header img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-top: 1rem; }
+    nav { background-color: #333; display: flex; justify-content: center; gap: 2rem; padding: 1rem 0; flex-wrap: wrap; }
+    nav a { color: #fff; text-decoration: none; font-size: 1.1rem; padding: 0.5rem 1rem; transition: background 0.3s; }
+    nav a:hover { background-color: #555; border-radius: 5px; }
+    section { padding: 3rem 5%; max-width: 1100px; margin: auto; background-color: #f9f9f9; margin-top: 2rem; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); animation: fadeIn 1s ease-in; }
+    h1, h2 { color: #111; }
+    ul { list-style-type: none; padding-left: 0; }
+    ul li { margin-bottom: 0.5rem; position: relative; padding-left: 1.5rem; }
+    ul li::before { content: "\2022 "; color: #555; font-weight: bold; position: absolute; left: 0; }
+    .section-image, .gallery { margin-top: 2rem; text-align: center; }
+    .section-image img, .gallery img { width: 80%; max-width: 400px; height: auto; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease; }
+    .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; }
+    .gallery img:hover { transform: scale(1.05); cursor: pointer; }
+    footer { text-align: center; padding: 2rem 1rem; font-size: 0.9em; background-color: #1a1a1a; color: #ccc; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Senne de Vries</h1>
+  <p>Verhalenverteller | Creatieve professional | Inspirator</p>
+  <img src="/mnt/data/Foto Senne.jpg" alt="Profielfoto Senne de Vries">
+</header>
+
+<nav>
+  <a href="#over">Over Mij</a>
+  <a href="#werk">Werk</a>
+  <a href="#projecten">Projecten</a>
+  <a href="#vrijwilligerswerk">Vrijwilligerswerk</a>
+  <a href="#dichtkunst">Dichtkunst</a>
+  <a href="#publicaties">Publicaties</a>
+  <a href="#galerij">Galerij</a>
+  <a href="#contact">Contact</a>
+  <a href="/mnt/data/Senne_de_VriesCV.pdf" download>Download CV</a>
+</nav>
+
+<section id="vrijwilligerswerk">
+  <h2>Vrijwilligerswerk</h2>
+  <p>Naast mijn professionele werk zet ik me in voor de culturele sector als vrijwilliger. Bij het <strong>BUT Filmfestival</strong> in Breda werk ik jaarlijks mee aan de organisatie en ondersteuning van dit toonaangevende underground filmfestival. Ook ben ik actief betrokken bij <strong>Filmhuis Breda</strong>, waar ik ondersteun bij vertoningen en culturele filmprojecten. Daarnaast schrijf ik als filmrecensent voor het radioprogramma <strong>GrensGeluiden</strong> van BredaNu, waar ik mijn liefde voor film en media deel met een breder publiek.</p>
+  <div class="gallery">
+    <img src="/mnt/data/Afbeelding van WhatsApp op 2025-06-03 om 21.17.25_685d4cfd.jpg" alt="Vrijwilligerswerk Filmfestival">
+    <img src="/mnt/data/Afbeelding van WhatsApp op 2025-06-03 om 21.17.26_0a205cf6.jpg" alt="Filmrecensie BredaNu">
+  </div>
+</section>
+
+<section id="dichtkunst">
+  <h2>Dichtkunst</h2>
+  <p>In 2024 bracht ik mijn dichtbundel <em>"Mijn Hart Zal Altijd Het Jouwe Zijn"</em> uit, een persoonlijke en thematisch rijke verzameling gedichten. Als dichter treed ik regelmatig op tijdens literaire evenementen, waar ik mijn poëzie voordraag en in contact treed met publiek en liefhebbers. Mijn optredens kenmerken zich door hun persoonlijke stijl en emotionele diepgang.</p>
+  <div class="section-image">
+    <img src="/mnt/data/Afbeelding van WhatsApp op 2025-06-03 om 21.17.25_b28e5c2a.jpg" alt="Dichtersoptreden">
+  </div>
+</section>
+
+<section id="werk">
+  <h2>Werkervaring</h2>
+  <p>Bij het <strong>Waterliniemuseum</strong> in Bunnik draag ik niet alleen zorg voor de marketing en communicatie, maar stel ik ook peuterexposities samen. Mijn meest recente project was de tentoonstelling <em>"Heksje Mimi en de Kabouter"</em>, een speelse en interactieve ervaring voor de jongste bezoekers van het museum. Deze veelzijdigheid in mijn werk toont mijn brede inzet en passie voor zowel educatie als cultuur.</p>
+  <div class="section-image">
+    <img src="/mnt/data/Afbeelding van WhatsApp op 2025-06-03 om 21.17.25_685d4cfd.jpg" alt="Museum Waterliniemuseum">
+  </div>
+</section>
+
+<section id="publicaties">
+  <h2>Publicaties en Filmprojecten</h2>
+  <p>Mijn creatieve werk strekt zich uit van poëzie tot film. Mijn dichtbundel <em>"Mijn Hart Zal Altijd Het Jouwe Zijn"</em> laat zien hoe woorden en gevoelens samenkomen in krachtige teksten. Daarnaast regisseerde ik de korte film <em>"Mijn Ode Aan Jou"</em>, waarin ik mijn liefde voor poëzie en film combineer in een visueel gedicht.</p>
+  <div class="gallery">
+    <img src="/mnt/data/Film Poster Movie Poster in Black and White Grey Minimalist  Style (2).png" alt="Film Poster Mijn Ode Aan Jou">
+    <img src="/mnt/data/Senne Bundel 2.jpg" alt="Dichtbundel Mijn Hart Zal Altijd Het Jouwe Zijn">
+  </div>
+</section>
+
+<section id="galerij">
+  <h2>Galerij</h2>
+  <div class="gallery">
+    <img src="/mnt/data/Afbeelding van WhatsApp op 2024-06-23 om 19.40.06_10071c5e.jpg" alt="Filmset rode kamer">
+    <img src="/mnt/data/Afbeelding van WhatsApp op 2024-01-18 om 21.08.47_c5378bb4.jpg" alt="BUT Filmfestival bezoek">
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2025 Senne de Vries. Alle rechten voorbehouden.</p>
+</footer>
+
+</body>
+</html>
